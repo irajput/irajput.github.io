@@ -1,0 +1,73 @@
+*{
+    background-color:none;
+}
+.project{
+    height:300px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.project h1{
+    font-size:50px;
+    color:#b97362;
+    font-family:'Calligraffitti';
+    letter-spacing:2px;
+}
+
+
+
+.texts.one{background-color:gray;}
+.texts.two{background-color:rgb(221, 248, 218);}
+.texts.three{background-color:rgb(240, 228, 195);}
+.texts.four{background-color:rgb(195, 240, 240);}
+.texts.five{background-color:rgb(240, 195, 195);}
+.texts.six{background-color:rgb(239, 240, 195);}
+
+.proj-cards-container{
+    width:100%;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+}
+.proj-cards{
+    width:80%;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+}
+.card{
+    width:300px;
+    height:300px;
+    border:3px solid rgb(233, 183, 192);
+    border-radius:4px;
+    text-align:center;
+    display:flex;
+    flex-direction:column;
+    background-color:rgb(211, 211, 248);
+    margin:30px;
+}
+.card h1,.card p,.card a{
+    background-color:transparent;
+    margin:15px;
+}
+.card h1{
+    font-size:30px;
+    color:rgb(60, 42, 71);
+}
+.card a{
+    color:rgb(99, 40, 91);
+    margin-top:auto;
+    
+}
+.card a:hover{
+    color:rgb(218, 186, 129);
+}
+
+.card.one h1{
+    font-size:24px;
+}
+.card.one p{
+    font-size:15px;
+}
