@@ -38,8 +38,8 @@
     align-items:center;
 }
 .card{
-    width:300px;
-    height:300px;
+    width:340px;
+    height:340px;
     border:3px solid rgb(233, 183, 192);
     border-radius:4px;
     text-align:center;
@@ -70,4 +70,12 @@
 }
 .card.one p{
     font-size:15px;
+}
+.card strong{
+    background-color:rgb(251, 207, 124);
+    padding:2px 8px;
+}
+.card m{
+    background-color:rgb(243, 204, 204);
+    padding:1px 8px;
 }
